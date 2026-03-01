@@ -12,6 +12,16 @@ This is a multi-page responsive portfolio website designed to showcase my academ
 * **Responsive Design:** Custom media queries for Mobile (640px), Tablet (1024px), and Desktop.
 * **Layout Techniques:** Utilizes **CSS Flexbox** for navigation and profile alignment, and **CSS Grid** for project and gallery layouts.
 * **Clean Code:** 100% valid HTML5 and CSS3 with zero inline styling.
+  
+  ---
+### Custom UI Component: .btn (Call-to-Action)
+I manually implemented a custom `.btn` class to handle the "Get in Touch" functionality. 
+
+**Engineering Highlights:**
+* **Visual Hierarchy:** Styled with high-contrast colors (White/Black) to stand out against the dark background.
+* **Box Model:** Used `display: inline-block` to allow for custom `padding` (12px 30px) and `margin-top`, ensuring a comfortable "touch target" for mobile users.
+* **Interactive State:** Added a `:hover` pseudo-class with a `0.3s ease` transition to provide smooth visual feedback when a user interacts with the link.
+* **Resetting Defaults:** Explicitly removed default browser link styling (`text-decoration: none`) to give it a modern, app-like appearance.
 
 ## Technologies Used
 * HTML5
