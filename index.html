@@ -2,9 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Professional portfolio of Muhammad Usman, a Fintech student at FAST-NUCES specializing in Web Engineering.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio of Muhammad Usman, a Fintech student at FAST-NUCES.">
     <title>Home</title>
     <link rel="stylesheet" href="styling.css">
+    <!-- FontAwesome for layout icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <nav class="navbar">
@@ -19,14 +22,25 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-<header class="hero-section">
-    <div class="hero-content">
-        <img src="https://lh3.googleusercontent.com/p/AF1QipO0OfZUq2sHpaZDYJrJ1R62pNFgoHHRtCIZCF7s=s1360-w1360-h1020-rw" alt="Profile" class="hero-avatar" style="width: 200px; border-radius: 100%;">
-        <p class="greeting">Hi, I'm Muhammad Usman</p>
-        <h1>Building digital products, brands, and experience.</h1>
-        <p class="bio-short">I am a student at FAST-NUCES specializing in Web Engineering.</p>
-        <a href="contact.html" class="btn">Get in Touch</a>
-    </div>
-</header>
-    </body>
+
+    <header class="hero-section">
+        <div class="hero-content">
+            <div class="image-frame" style="margin-bottom: 24px;">
+                <img src="https://lh3.googleusercontent.com/p/AF1QipO0OfZUq2sHpaZDYJrJ1R62pNFgoHHRtCIZCF7s=s1360-w1360-h1020-rw" alt="Muhammad Usman" class="profile-photo">
+            </div>
+            <p class="hero-tagline" style="margin-bottom: 16px;">
+                <span class="pulse-dot"></span> Hi, I'm Muhammad Usman
+            </p>
+            <h1 style="font-size: 3rem; font-weight: 800; max-width: 800px; margin: 0 auto 20px auto; line-height: 1.2; letter-spacing: -1px;">
+                Building digital products, brands, and experiences.
+            </h1>
+            <p style="color: var(--text-muted); font-size: 1.2rem; max-width: 600px; margin: 0 auto 30px auto;">
+                Financial Technology student at FAST-NUCES specializing in Web Engineering.
+            </p>
+            <a href="contact.html" class="social-btn github" style="display: inline-flex; width: auto; padding: 14px 32px; margin: 0 auto;">
+                Get in Touch <i class="fa-solid fa-arrow-right" style="font-size: 0.85rem;"></i>
+            </a>
+        </div>
+    </header>
+</body>
 </html>
