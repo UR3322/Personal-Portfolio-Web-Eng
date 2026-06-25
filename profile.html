@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
     <link rel="stylesheet" href="styling.css">
+    <!-- FontAwesome for modern layout icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <nav class="navbar">
@@ -19,16 +22,40 @@
         </ul>
     </nav>
     <div class="container">
-        <div class="profile-wrapper">
-            <img src="https://lh3.googleusercontent.com/p/AF1QipNyTW5V-QydUJxiXJXcNR3STxluS9Omf9BKdVEj=s1360-w1360-h1020-rw" class="profile-photo">
-            <div class="profile-content">
-                <h2>About Me</h2>
-                <p>Fintech @ FAST-NUCES. Passionate about building simple, secure, and efficient financial products.</p>
-                <div class="social-container">
-                    <h3>Social Media Links</h3>
-                    <a href="https://www.linkedin.com/in/muhammad-usman-142a9528b?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="social-link">LinkedIn</a>
-                    <a href="https://github.com/UR3322" class="social-link">GitHub</a>
-                    <a href="https://www.instagram.com/_us__maan_?igsh=dThrejJ6dTZ1NnVv" class="social-link">Instagram</a>
+        <div class="profile-split-wrapper">
+            <!-- Left Panel: Visual Identity Card -->
+            <div class="profile-side-card">
+                <div class="image-frame">
+                    <img src="https://lh3.googleusercontent.com/p/AF1QipNyTW5V-QydUJxiXJXcNR3STxluS9Omf9BKdVEj=s1360-w1360-h1020-rw" class="profile-photo" alt="Muhammad Usman">
+                </div>
+                <h2>Muhammad Usman</h2>
+                <p class="profile-subtag">Financial Technology | FAST-NUCES</p>
+                
+                <div class="social-icon-strip">
+                    <a href="https://www.linkedin.com/in/muhammad-usman-142a9528b?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="icon-btn linkedin" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/UR3322" target="_blank" class="icon-btn github" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/_us__maan_?igsh=dThrejJ6dTZ1NnVv" target="_blank" class="icon-btn instagram" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Right Panel: Narrative & Focus Areas -->
+            <div class="profile-main-content">
+                <div class="bio-section">
+                    <h3>About Me</h3>
+                    <p class="main-bio">I am a Financial Technology student at FAST-NUCES Islamabad, specializing in the intersection of predictive data engineering, alternative credit frameworks, and machine learning backend infrastructures.</p>
+                </div>
+
+                <div class="focus-grid">
+                    <div class="focus-box">
+                        <div class="focus-icon"><i class="fa-solid fa-chart-line"></i></div>
+                        <h4>Financial Intelligence</h4>
+                        <p>Developing data pipelines to evaluate risk and optimize alternative credit data models.</p>
+                    </div>
+                    <div class="focus-box">
+                        <div class="focus-icon"><i class="fa-solid fa-brain"></i></div>
+                        <h4>Algorithmic Engineering</h4>
+                        <p>Implementing explainable machine learning models to solve transparency challenges in production systems.</p>
+                    </div>
                 </div>
             </div>
         </div>
