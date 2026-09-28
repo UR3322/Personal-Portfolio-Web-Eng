@@ -1,29 +1,59 @@
-# Personal-Portfolio-Web-Eng
-Professional Portfolio Website for Web Engineering (CS312). Built with pure HTML5 and CSS3 using Flexbox and Grid layouts. Fully responsive for Desktop, Tablet, and Mobile.
-
 # Personal Portfolio Website
-### Course: Web Engineering - Assignment 1
 
-## Project Overview
-This is a multi-page responsive portfolio website designed to showcase my academic background, technical skills, and career goals. 
+Personal portfolio website of **Muhammad Usman** — FinTech developer and final-year Financial Technology student at FAST-NUCES, Islamabad.
+
+## Overview
+
+A multi-page, fully responsive portfolio site built with pure HTML5 and CSS3 — no frameworks, no JavaScript, no build step. It showcases my profile, projects, skills, career goals, and contact details in a dark, professional theme.
 
 ## Features
-* **7 Functional Pages:** Home, Profile, Gallery, Goals, Projects, Skills, and Contact.
-* **Responsive Design:** Custom media queries for Mobile (640px), Tablet (1024px), and Desktop.
-* **Layout Techniques:** Utilizes **CSS Flexbox** for navigation and profile alignment, and **CSS Grid** for project and gallery layouts.
-* **Clean Code:** 100% valid HTML5 and CSS3 with zero inline styling.
-  
-  ---
-### Custom UI Component: .btn (Call-to-Action)
-I manually implemented a custom `.btn` class to handle the "Get in Touch" functionality. 
 
-**Engineering Highlights:**
-* **Visual Hierarchy:** Styled with high-contrast colors (White/Black) to stand out against the dark background.
-* **Box Model:** Used `display: inline-block` to allow for custom `padding` (12px 30px) and `margin-top`, ensuring a comfortable "touch target" for mobile users.
-* **Interactive State:** Added a `:hover` pseudo-class with a `0.3s ease` transition to provide smooth visual feedback when a user interacts with the link.
-* **Resetting Defaults:** Explicitly removed default browser link styling (`text-decoration: none`) to give it a modern, app-like appearance.
+- **7 pages:** Home, Profile, Gallery, Goals, Projects, Skills, Contact
+- **Fully responsive:** layouts adapt for mobile (≤640px), tablet (≤1024px), and desktop
+- **Pure CSS layouts:** Flexbox for navigation and profile sections, CSS Grid for project and gallery cards
+- **Project showcase:** 9 projects, each with a direct link to its GitHub repository
+- **Professional details:** SEO meta tags, favicon, sticky navbar, footer with social links
 
-## Technologies Used
-* HTML5
-* CSS3 (Flexbox & Grid)
-* Google Fonts (Inter)
+## Tech Stack
+
+- HTML5
+- CSS3 (Flexbox & Grid)
+- FontAwesome icons
+- Google Fonts (Inter)
+
+## Setup
+
+No build step needed — it's a static site.
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/UR3322/Personal-Portfolio-Web-Eng.git
+   ```
+2. Add your profile photo as `assets/profile.jpg`.
+3. Open `index.html` in a browser — or serve the folder with any static server:
+   ```bash
+   npx serve .
+   ```
+
+## Project Structure
+
+```
+├── index.html      # Home / hero
+├── profile.html    # About + focus areas
+├── projects.html   # Project showcase with GitHub links
+├── skills.html     # Skills with proficiency bars
+├── goals.html      # Career roadmap
+├── gallery.html    # Visual showcase
+├── contact.html    # Contact details + social links
+├── styling.css     # All styles (single stylesheet)
+└── assets/
+    └── profile.jpg # Profile photo (add your own)
+```
+
+## License
+
+MIT — see [LICENSE](LICENSE).
+
+## Author
+
+**Muhammad Usman** — [GitHub](https://github.com/UR3322) · [LinkedIn](https://www.linkedin.com/in/muhammad-usman-142a9528b)
